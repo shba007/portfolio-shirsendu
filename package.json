@@ -15,7 +15,7 @@
     "pnpm": "^9.15.0 || ^10.2.0",
     "bun": "^1.2.9"
   },
-  "packageManager": "bun@1.2.21",
+  "packageManager": "bun@1.2.22",
   "scripts": {
     "prepare": "husky || true",
     "postinstall": "nuxt prepare",
@@ -38,9 +38,9 @@
     "tauri:build:mobile": "tauri android build"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.49.0",
+    "@dotenvx/dotenvx": "^1.50.1",
     "@hannoeru/nuxt-otel": "0.0.6",
-    "@notionhq/client": "^4.0.1",
+    "@notionhq/client": "^4.0.2",
     "@nuxt/eslint": "^1.9.0",
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^2.0.0",
@@ -48,13 +48,13 @@
     "@nuxt/scripts": "0.11.5",
     "@nuxt/test-utils": "^3.19.2",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@nuxtjs/seo": "^3.1.0",
+    "@nuxtjs/seo": "^3.2.2",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@regle/nuxt": "1.8.0",
     "@splidejs/splide-extension-grid": "^0.4.1",
     "@tauri-apps/api": "^2.8.0",
     "@types/web-push": "^3.6.4",
-    "@unhead/vue": "^2.0.14",
+    "@unhead/vue": "^2.0.17",
     "@vite-pwa/nuxt": "^1.0.4",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue-email/components": "^0.0.21",
@@ -63,14 +63,15 @@
     "@vueuse/nuxt": "^13.9.0",
     "confbox": "^0.2.2",
     "date-fns": "^4.1.0",
-    "eslint": "^9.35.0",
-    "nuxt": "^4.1.1",
-    "nuxt-nodemailer": "^1.1.2",
+    "eslint": "^9.36.0",
+    "nodemailer": "^7.0.6",
+    "nuxt": "^4.1.2",
+    "nuxt-nodemailer": "1.1.2",
     "nuxt-splide": "^1.1.2",
     "vue": "latest",
     "vue-router": "latest",
     "web-push": "^3.6.7",
-    "zod": "^4.1.5"
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
@@ -83,7 +84,7 @@
     "playwright-core": "^1.55.0",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.14",
-    "typescript": "~5.8.3",
+    "typescript": "~5.9.2",
     "vitest": "^3.2.4"
   },
   "trustedDependencies": [

@@ -75,10 +75,7 @@ export default defineNuxtConfig({
       plugins: [vue()],
     },
   },
-  vite: {
-    server: {
-      allowedHosts: true,
-    },
+  /* vite: {
     // FIXME: temporary fix for email remove when not needed
     $server: {
       build: {
@@ -89,7 +86,7 @@ export default defineNuxtConfig({
         },
       },
     },
-  },
+  }, */
   routeRules: {
     '/': { ssr: true },
     '/_ipx/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },

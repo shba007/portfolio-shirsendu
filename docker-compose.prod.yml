@@ -7,8 +7,8 @@ services:
     volumes:
       - portfolio-shirsendu_static:/app/static
       - portfolio-shirsendu_data:/app/.data
-    ports:
-      - 4100:3000
+    expose:
+      - 3000
     networks:
       - front-tier
     deploy:
