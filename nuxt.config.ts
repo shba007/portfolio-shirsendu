@@ -96,6 +96,7 @@ export default defineNuxtConfig({
       headers: { 'content-type': 'application/manifest+json', 'cache-control': 'public, max-age=0, must-revalidate' },
     },
     '/api/**': { cors: true },
+    '/email': { ssr: true },
   },
   runtimeConfig: {
     app: {

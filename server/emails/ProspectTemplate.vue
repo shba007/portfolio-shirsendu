@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Html, Head, Preview, Body, Container, Section, Img, Text, Tailwind, Link, Font } from '@vue-email/components'
+import type { TailwindConfig } from '@vue-email/tailwind'
 
 defineProps<{
   fromCompanyName: string
@@ -86,7 +87,7 @@ const tailwindConfig = {
       },
     },
   },
-}
+} satisfies TailwindConfig
 </script>
 
 <template>

@@ -20,7 +20,6 @@ defineProps<{
 const referTag = '?ref=outreach-mail'
 
 const tailwindConfig = {
-  darkMode: 'class',
   theme: {
     fontSize: {
       xs: ['0.75rem', '0.875rem'],
@@ -134,7 +133,7 @@ const tailwindConfig = {
           </Section>
 
           <!-- Sign-off -->
-          <Section class="mb-2 space-y-4">
+          <Section class="mb-2">
             <Text class="text-base leading-relaxed">
               Looking forward to connecting!<br />
               Best regards,<br />
