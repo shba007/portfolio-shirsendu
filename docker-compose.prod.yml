@@ -7,10 +7,8 @@ services:
     volumes:
       - portfolio-shirsendu_static:/app/static
       - portfolio-shirsendu_data:/app/.data
-    expose:
-      - 3000
     networks:
-      - front-tier
+      - internal
     deploy:
       replicas: 1
       restart_policy:
@@ -32,5 +30,5 @@ volumes:
       device: /root/portfolio-shirsendu/.data
 
 networks:
-  front-tier:
+  internal:
     driver: overlay

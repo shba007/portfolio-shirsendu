@@ -44,7 +44,7 @@ const nativeConfig =
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-05-15',
+  compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: [
     // '@hannoeru/nuxt-otel',
@@ -190,7 +190,6 @@ export default defineNuxtConfig({
       description: 'Shirsendu Bairagi is a Fullstack Developer',
       theme_color: '#0593FA',
       background_color: '#0593FA',
-      orientation: 'any',
       display: 'fullscreen',
       shortcuts: [
         {
