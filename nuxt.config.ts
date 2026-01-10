@@ -124,13 +124,6 @@ export default defineNuxtConfig({
       paymentUpiInfo: '',
     },
   },
-  app: {
-    head: {
-      htmlAttrs: {
-        lang: 'en',
-      },
-    },
-  },
   icon: {
     componentName: 'NuxtIcon',
     provider: 'none',
@@ -146,14 +139,14 @@ export default defineNuxtConfig({
     },
   },
   image: {
-    provider: 'uploadcare',
-    ipx: {},
-    uploadcare: {
-      cdnURL: 'https://ucarecdn.com',
-      quality: 'smart',
-      format: 'auto',
-      progressive: 'yes',
-      strip_meta: 'all',
+    provider: 'ipx',
+    ipx: {
+      baseURL: `${process.env.NUXT_PUBLIC_CDN_URL}/media/image`,
+      modifiers: {
+        format: 'auto',
+        quality: 80,
+        progressive: 'yes',
+      },
     },
   },
   scripts: {
@@ -162,7 +155,7 @@ export default defineNuxtConfig({
     },
   },
   colorMode: {
-    preference: 'system',
+    preference: 'dark',
     fallback: 'light',
     classSuffix: '',
   },
