@@ -19,6 +19,7 @@ concurrency:
 env:
   REPO: ${{ github.repository }}
   VERSION: ${{ github.ref_name }}
+  DATABASE_URL: ${{ vars.DATABASE_URL }}
 
 jobs:
   build-web:
@@ -32,7 +33,7 @@ jobs:
 
     steps:
       - name: 📥 Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -93,7 +94,7 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: 📝 Generate artifact attestation
-        uses: actions/attest-build-provenance@v1
+        uses: actions/attest-build-provenance@v3
         with:
           subject-name: ghcr.io/${{ env.REPO }}
           subject-digest: ${{ steps.push.outputs.digest }}
@@ -140,7 +141,7 @@ jobs:
 
     steps:
       - name: 📥 Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -200,7 +201,7 @@ jobs:
 
     steps:
       - name: 📥 Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 

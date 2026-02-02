@@ -9,6 +9,9 @@ on:
     branches:
       - develop
 
+env:
+  DATABASE_URL: ${{ vars.DATABASE_URL }}
+
 jobs:
   build:
     if: >
@@ -21,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
