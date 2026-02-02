@@ -1,5 +1,28 @@
 # portfolio-shirsendu
 
+## v1.23.2
+
+[compare changes](https://github.com/Algostract/portfolio-shirsendu/compare/v1.23.0...v1.23.2)
+
+### 🏡 Chore
+
+- Update tauri dependencies to latest versions: tauri-build to 2.4.1 and tauri to 2.8.5 ([abcc4ca](https://github.com/Algostract/portfolio-shirsendu/commit/abcc4ca))
+- Deps updated ([f1df229](https://github.com/Algostract/portfolio-shirsendu/commit/f1df229))
+- Update docker-compose and nuxt configuration ([ac20cd0](https://github.com/Algostract/portfolio-shirsendu/commit/ac20cd0))
+- Update nuxt.config.ts and package.json for various improvements ([a44351c](https://github.com/Algostract/portfolio-shirsendu/commit/a44351c))
+- Update dependencies and package manager version ([d2182d3](https://github.com/Algostract/portfolio-shirsendu/commit/d2182d3))
+- Update GitHub Actions to use actions/checkout@v6 and actions/attest-build-provenance@v3 ([f7a2ca1](https://github.com/Algostract/portfolio-shirsendu/commit/f7a2ca1))
+
+### 🤖 CI
+
+- **release:** Update version ([e6b1762](https://github.com/Algostract/portfolio-shirsendu/commit/e6b1762))
+- **release:** Update version ([dc9f47b](https://github.com/Algostract/portfolio-shirsendu/commit/dc9f47b))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+- Shba007 ([@shba007](https://github.com/shba007))
+
 ## v1.23.1
 
 [compare changes](https://github.com/Algostract/portfolio-shirsendu/compare/v1.23.0...v1.23.1)
