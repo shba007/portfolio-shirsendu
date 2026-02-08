@@ -49,7 +49,7 @@ jobs:
         run: bun run format
 
       - name: 🤖 AutoFix Code
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore: apply code fixes [skip ci]'
 
@@ -64,7 +64,7 @@ jobs:
           bunx changelogen@latest --bump
 
       - name: 🔀 Create or Update Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: 'ci(release): update version'
           title: 'ci(release): update version'

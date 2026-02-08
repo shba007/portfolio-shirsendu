@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import * as z from 'zod'
 
 const paramSchema = z.object({
   asset: z.string().min(1),

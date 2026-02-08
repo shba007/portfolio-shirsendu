@@ -6,7 +6,7 @@
   "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Algostract/portfolio-shirsendu.git"
+    "url": "git+https://github.com/shba007/portfolio-shirsendu.git"
   },
   "type": "module",
   "private": true,
@@ -50,9 +50,9 @@
     "@nuxtjs/color-mode": "^4.0.0",
     "@nuxtjs/seo": "^3.4.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "@regle/nuxt": "^1.17.4",
+    "@regle/nuxt": "^1.18.0",
     "@splidejs/splide-extension-grid": "^0.4.1",
-    "@tauri-apps/api": "^2.9.1",
+    "@tauri-apps/api": "^2.10.1",
     "@types/web-push": "^3.6.4",
     "@unhead/vue": "^2.1.2",
     "@vite-pwa/nuxt": "^1.1.0",
@@ -77,10 +77,10 @@
   "devDependencies": {
     "@commitlint/cli": "^20.4.1",
     "@commitlint/config-conventional": "^20.4.1",
-    "@tauri-apps/cli": "^2.9.6",
+    "@tauri-apps/cli": "^2.10.0",
     "@types/k6": "^1.5.0",
     "@vue/test-utils": "^2.4.6",
-    "happy-dom": "^20.4.0",
+    "happy-dom": "^20.5.0",
     "husky": "^9.1.7",
     "playwright-core": "^1.58.1",
     "prettier": "^3.8.1",
