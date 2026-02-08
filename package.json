@@ -64,7 +64,7 @@
     "@vueuse/nuxt": "^14.2.0",
     "confbox": "^0.2.2",
     "date-fns": "^4.1.0",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.0",
     "nodemailer": "^7.0.13",
     "nuxt": "^4.3.0",
     "nuxt-nodemailer": "^1.1.4",
