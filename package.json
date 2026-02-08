@@ -65,7 +65,7 @@
     "confbox": "^0.2.2",
     "date-fns": "^4.1.0",
     "eslint": "^9.39.2",
-    "nodemailer": "^7.0.13",
+    "nodemailer": "^8.0.1",
     "nuxt": "^4.3.0",
     "nuxt-nodemailer": "^1.1.4",
     "nuxt-splide": "^1.1.2",
