@@ -1,5 +1,34 @@
 # portfolio-shirsendu
 
+## v1.23.4
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.0...v1.23.4)
+
+### 🏡 Chore
+
+- Update tauri dependencies to latest versions: tauri-build to 2.4.1 and tauri to 2.8.5 ([abcc4ca](https://github.com/shba007/portfolio-shirsendu/commit/abcc4ca))
+- Deps updated ([f1df229](https://github.com/shba007/portfolio-shirsendu/commit/f1df229))
+- Update docker-compose and nuxt configuration ([ac20cd0](https://github.com/shba007/portfolio-shirsendu/commit/ac20cd0))
+- Update nuxt.config.ts and package.json for various improvements ([a44351c](https://github.com/shba007/portfolio-shirsendu/commit/a44351c))
+- Update dependencies and package manager version ([d2182d3](https://github.com/shba007/portfolio-shirsendu/commit/d2182d3))
+- Update GitHub Actions to use actions/checkout@v6 and actions/attest-build-provenance@v3 ([f7a2ca1](https://github.com/shba007/portfolio-shirsendu/commit/f7a2ca1))
+- Update project dependencies and configurations ([8711446](https://github.com/shba007/portfolio-shirsendu/commit/8711446))
+- Update dependencies and package manager version; add load testing script ([9dc3e94](https://github.com/shba007/portfolio-shirsendu/commit/9dc3e94))
+
+### 🤖 CI
+
+- **release:** Update version ([e6b1762](https://github.com/shba007/portfolio-shirsendu/commit/e6b1762))
+- **release:** Update version ([dc9f47b](https://github.com/shba007/portfolio-shirsendu/commit/dc9f47b))
+- **release:** Update version ([07e31fd](https://github.com/shba007/portfolio-shirsendu/commit/07e31fd))
+- **release:** Update version ([fd08cb2](https://github.com/shba007/portfolio-shirsendu/commit/fd08cb2))
+- **release:** Update version ([62840a0](https://github.com/shba007/portfolio-shirsendu/commit/62840a0))
+- **release:** Update version ([b05650a](https://github.com/shba007/portfolio-shirsendu/commit/b05650a))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+- Shba007 ([@shba007](https://github.com/shba007))
+
 ## v1.23.3
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.0...v1.23.3)
