@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.23.6
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.5...v1.23.6)
+
+### 🩹 Fixes
+
+- Update title in index.vue to reflect co-founder role ([e33cab8](https://github.com/shba007/portfolio-shirsendu/commit/e33cab8))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.23.5
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.4...v1.23.5)
