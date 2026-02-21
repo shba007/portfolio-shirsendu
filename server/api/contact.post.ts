@@ -27,7 +27,7 @@ export default defineEventHandler<
     // Save meeting info into Notion DB (Algostract CRM).
     // Notify you automatically via Notion Calender.
     await notion.pages.create({
-      parent: { database_id: notionDbId.prospect },
+      parent: { data_source_id: notionDbId.prospect },
       properties: {
         Name: {
           type: 'title',

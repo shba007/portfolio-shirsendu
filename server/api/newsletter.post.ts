@@ -16,7 +16,7 @@ export default defineEventHandler<Promise<{ subscribed: boolean }>>(async (event
 
     await notion.pages.create({
       parent: {
-        database_id: notionDbId.newsletter,
+        data_source_id: notionDbId.newsletter,
       },
       properties: {
         Email: {
