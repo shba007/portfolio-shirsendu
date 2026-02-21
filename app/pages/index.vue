@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = `CTO · Founder · Open Source Maintainer`
+const title = `CTO · Co-founder of Modest Human Brands · Open Source Maintainer`
 const description = `Architecting scalable design, leading product development, and fostering tech innovation.`
 
 const {

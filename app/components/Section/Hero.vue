@@ -34,9 +34,9 @@ const experience = computed(() =>
     </NuxtPicture> -->
     <div class="flex h-fit flex-col items-center gap-8 md:my-auto md:w-1/2 md:items-start">
       <span class="mx-auto w-fit rounded-full border border-primary-500 px-4 py-2 text-sm capitalize md:mx-0"> {{ experience }} +XP </span>
-      <h1 class="text-center text-2xl md:text-left md:text-3xl lg:text-4xl">CTO · Founder <br />Open Source Maintainer</h1>
+      <h1 class="text-center text-2xl md:text-left md:text-3xl lg:text-4xl">CTO · Co-founder <br />Open Source Maintainer</h1>
       <h2 class="mx-auto w-fit max-w-[90%] text-center text-lg font-light leading-relaxed opacity-80 sm:max-w-[80%] md:mx-0 md:max-w-[90%] md:text-left">
-        Founder of Gold Fish Bowl, CTO at RED CAT PICTURES. Architecting scalable design, leading product development, and fostering tech innovation.
+        CTO & Co-founder of Modest Human Brands. Architecting scalable design, leading product development, and fostering tech innovation.
       </h2>
       <ButtonCTA @click="emit('contact')" />
     </div>
