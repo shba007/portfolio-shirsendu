@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.23.5
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.4...v1.23.5)
+
+### 🩹 Fixes
+
+- Migrated residual notion code ([6efb745](https://github.com/shba007/portfolio-shirsendu/commit/6efb745))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.23.4
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.0...v1.23.4)
