@@ -55,6 +55,8 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/test-utils/module',
     '@nuxtjs/color-mode',
+    // '@nuxtjs/i18n',
+    '@nuxtjs/mcp-toolkit',
     '@nuxtjs/seo',
     '@nuxtjs/tailwindcss',
     '@vite-pwa/nuxt',
