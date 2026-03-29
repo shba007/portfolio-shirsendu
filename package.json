@@ -38,9 +38,9 @@
     "tauri:build:mobile": "tauri android build"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.57.2",
+    "@dotenvx/dotenvx": "^1.59.1",
     "@hannoeru/nuxt-otel": "^0.0.8",
-    "@notionhq/client": "^5.14.0",
+    "@notionhq/client": "^5.15.0",
     "@nuxt/eslint": "^1.15.2",
     "@nuxt/fonts": "^0.14.0",
     "@nuxt/icon": "^2.2.1",
@@ -49,9 +49,9 @@
     "@nuxt/test-utils": "^4.0.0",
     "@nuxtjs/color-mode": "^4.0.0",
     "@nuxtjs/mcp-toolkit": "^0.12.0",
-    "@nuxtjs/seo": "^4.0.2",
+    "@nuxtjs/seo": "^5.0.2",
     "@nuxtjs/tailwindcss": "^6.14.0",
-    "@regle/nuxt": "^1.20.4",
+    "@regle/nuxt": "^1.21.1",
     "@splidejs/splide-extension-grid": "^0.4.1",
     "@tauri-apps/api": "^2.10.1",
     "@types/web-push": "^3.6.4",
@@ -66,7 +66,7 @@
     "confbox": "^0.2.4",
     "date-fns": "^4.1.0",
     "eslint": "^10.1.0",
-    "nodemailer": "^8.0.3",
+    "nodemailer": "^8.0.4",
     "nuxt": "^4.4.2",
     "nuxt-nodemailer": "^1.1.4",
     "nuxt-splide": "^1.1.2",
@@ -80,15 +80,15 @@
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
     "@tauri-apps/cli": "^2.10.1",
-    "@types/k6": "^1.6.0",
+    "@types/k6": "^1.7.0",
     "@vue/test-utils": "^2.4.6",
-    "happy-dom": "^20.8.4",
+    "happy-dom": "^20.8.9",
     "husky": "^9.1.7",
     "playwright-core": "^1.58.2",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "~5.9.3",
-    "vitest": "^4.1.0"
+    "vitest": "^4.1.2"
   },
   "trustedDependencies": [
     "@parcel/watcher",
@@ -96,6 +96,7 @@
     "isolated-vm",
     "protobufjs",
     "sharp",
-    "unrs-resolver"
+    "unrs-resolver",
+    "vue-demi"
   ]
 }
