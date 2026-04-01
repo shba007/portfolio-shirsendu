@@ -1,5 +1,23 @@
 # portfolio-shirsendu
 
+## v1.24.0
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.6...v1.24.0)
+
+### 🚀 Enhancements
+
+- Added mcp server and updated packages ([6ef9369](https://github.com/shba007/portfolio-shirsendu/commit/6ef9369))
+- Update dependencies and improve Tauri integration ([eb76409](https://github.com/shba007/portfolio-shirsendu/commit/eb76409))
+
+### 🏡 Chore
+
+- Packages updated ([8061236](https://github.com/shba007/portfolio-shirsendu/commit/8061236))
+- Updated bun.lock ([98d948e](https://github.com/shba007/portfolio-shirsendu/commit/98d948e))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.23.6
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.5...v1.23.6)
