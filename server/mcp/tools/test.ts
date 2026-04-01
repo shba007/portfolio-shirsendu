@@ -1,9 +1,9 @@
 import { z } from 'zod'
 
 export default defineMcpTool({
-  description: 'Echo back a message',
+  description: 'A simple test tool',
   inputSchema: {
-    message: z.string().describe('The message to echo back'),
+    message: z.string(),
   },
-  handler: async ({ message }) => `Echo: ${message}`,
+  handler: async ({ message }) => `Test successful: ${message}`,
 })
