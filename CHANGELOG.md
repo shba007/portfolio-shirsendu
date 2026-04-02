@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.25.0
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.24.0...v1.25.0)
+
+### 🚀 Enhancements
+
+- Add project retrieval and listing tools in mcp tools ([ac845bd](https://github.com/shba007/portfolio-shirsendu/commit/ac845bd))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.24.0
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.23.6...v1.24.0)
