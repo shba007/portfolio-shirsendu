@@ -12,8 +12,6 @@ export default defineEventHandler<
     const config = useRuntimeConfig()
     const notionDbId = config.private.notionDbId as unknown as NotionDB
 
-    // System generates meeting link (Google Meet / Jitsi).
-    // Create Calendar Event with Meet link
     const meetingEvent = await apiGoogle<{
       name: string
       meetingUri: string
@@ -24,8 +22,6 @@ export default defineEventHandler<
       body: {},
     })
 
-    // Save meeting info into Notion DB (Algostract CRM).
-    // Notify you automatically via Notion Calender.
     await notion.pages.create({
       parent: { data_source_id: notionDbId.prospect },
       properties: {
@@ -47,7 +43,6 @@ export default defineEventHandler<
       },
     })
 
-    // Send confirmation email to client (with ICS calendar file).
     await sendEmail('contact', [
       {
         toPersonName: body.name,

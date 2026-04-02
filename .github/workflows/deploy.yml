@@ -38,7 +38,7 @@ jobs:
           fetch-depth: 0
 
       - name: 🐋 Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: 🐋 Set up Docker Buildx
         uses: docker/setup-buildx-action@v4
@@ -229,8 +229,8 @@ jobs:
           cd src-tauri/gen/android
           echo "keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}" > keystore.properties
           echo "password=${{ secrets.ANDROID_KEY_PASSWORD }}" >> keystore.properties
-          base64 -d <<< "${{ secrets.ANDROID_KEY_BASE64 }}" > ./upload-keystore.jks
-          echo "storeFile=../upload-keystore.jks" >> keystore.properties
+          base64 -d <<< "${{ secrets.ANDROID_KEY_BASE64 }}" > ./release-keystore.jks
+          echo "storeFile=../release-keystore.jks" >> keystore.properties
 
       - name: 🛠️ Setup Rust
         uses: dtolnay/rust-toolchain@stable
