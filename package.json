@@ -35,7 +35,12 @@
     "tauri:dev": "tauri dev",
     "tauri:build": "tauri build",
     "tauri:dev:mobile": "tauri android dev",
-    "tauri:build:mobile": "tauri android build"
+    "tauri:build:mobile": "tauri android build",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "test:unit": "vitest --project unit",
+    "test:nuxt": "vitest --project nuxt"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.59.1",
@@ -54,6 +59,7 @@
     "@regle/nuxt": "^1.21.5",
     "@splidejs/splide-extension-grid": "^0.4.1",
     "@tauri-apps/api": "^2.10.1",
+    "@tauri-apps/plugin-shell": "^2.3.5",
     "@types/web-push": "^3.6.4",
     "@unhead/vue": "^2.1.12",
     "@vite-pwa/nuxt": "^1.1.1",
