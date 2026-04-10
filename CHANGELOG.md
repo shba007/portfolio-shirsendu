@@ -1,5 +1,21 @@
 # portfolio-shirsendu
 
+## v1.26.0
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.25.0...v1.26.0)
+
+### 🚀 Enhancements
+
+- Add tauri-plugin-shell and update permissions ([f62cda7](https://github.com/shba007/portfolio-shirsendu/commit/f62cda7))
+
+### 🏡 Chore
+
+- Update dependencies and TypeScript configuration ([4f99bfc](https://github.com/shba007/portfolio-shirsendu/commit/4f99bfc))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.25.0
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.24.0...v1.25.0)
