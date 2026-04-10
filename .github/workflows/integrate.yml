@@ -9,9 +9,6 @@ on:
     branches:
       - develop
 
-env:
-  DATABASE_URL: ${{ vars.DATABASE_URL }}
-
 jobs:
   build:
     if: >
@@ -27,6 +24,11 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+
+      - name: 🛠️ Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
 
       - name: 🛠️ Setup Bun
         uses: oven-sh/setup-bun@v2
