@@ -61,7 +61,7 @@
     "@tauri-apps/api": "^2.10.1",
     "@tauri-apps/plugin-shell": "^2.3.5",
     "@types/web-push": "^3.6.4",
-    "@unhead/vue": "^2.1.13",
+    "@unhead/vue": "^3.1.0",
     "@vite-pwa/nuxt": "^1.1.1",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue-email/components": "^0.0.21",
