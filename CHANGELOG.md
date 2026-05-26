@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.26.1
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.26.0...v1.26.1)
+
+### 🏡 Chore
+
+- Update dependencies and package manager versions ([aa9e8be](https://github.com/shba007/portfolio-shirsendu/commit/aa9e8be))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.26.0
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.25.0...v1.26.0)
