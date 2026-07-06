@@ -49,7 +49,7 @@ export default async function apiGoogle<T>(
       if (tokens && 'access_token' in tokens) {
         oauthAccessToken = tokens.access_token
       } else {
-        throw new Error('Failed to refresh access token')
+        throw new Error('Failed to refresh access token', { cause: err })
       }
       return apiGoogle<T>(path, { ...options, _retry: true })
     }
