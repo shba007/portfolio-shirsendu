@@ -101,7 +101,7 @@ export default defineNuxtConfig({
     '/email': { ssr: true },
   },
   runtimeConfig: {
-    app: {
+    meta: {
       version: '',
       buildTime: '',
     },
