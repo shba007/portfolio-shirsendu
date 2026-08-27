@@ -1,5 +1,21 @@
 # portfolio-shirsendu
 
+## v1.27.0
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.26.1...v1.27.0)
+
+### 🚀 Enhancements
+
+- Implement code changes to enhance functionality and improve performance ([f40c0b5](https://github.com/shba007/portfolio-shirsendu/commit/f40c0b5))
+
+### 🏡 Chore
+
+- Update nuxt.config.ts and updated deps ([187cb13](https://github.com/shba007/portfolio-shirsendu/commit/187cb13))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.26.1
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.26.0...v1.26.1)
