@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.28.1
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.0...v1.28.1)
+
+### 🩹 Fixes
+
+- Update dependencies for serde and serde_json versions ([ff36a89](https://github.com/shba007/portfolio-shirsendu/commit/ff36a89))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.28.0
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.27.0...v1.28.0)
