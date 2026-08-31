@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.28.3
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.2...v1.28.3)
+
+### 🏡 Chore
+
+- Update dependencies and Rust version ([8deb865](https://github.com/shba007/portfolio-shirsendu/commit/8deb865))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.28.2
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.1...v1.28.2)
