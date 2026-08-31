@@ -228,8 +228,8 @@ jobs:
 
       - name: Setup Android NDK
         run: |
-          sdkmanager "ndk;27.0.11902837"
-          echo "NDK_HOME=${{ env.ANDROID_HOME }}/ndk/27.0.11902837" >> $GITHUB_ENV
+          sdkmanager "ndk;29.0.13846066"
+          echo "NDK_HOME=${{ env.ANDROID_HOME }}/ndk/29.0.13846066" >> $GITHUB_ENV
 
       - name: Setup Android Signing
         run: |
