@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.28.2
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.1...v1.28.2)
+
+### 🏡 Chore
+
+- Update Tauri dependencies to version 2.11.3 and add tauri-plugin-log ([4be5577](https://github.com/shba007/portfolio-shirsendu/commit/4be5577))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.28.1
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.0...v1.28.1)
