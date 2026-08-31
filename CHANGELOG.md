@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.28.4
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.3...v1.28.4)
+
+### 🏡 Chore
+
+- Update dependencies and versions in Cargo files ([7b5acc4](https://github.com/shba007/portfolio-shirsendu/commit/7b5acc4))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.28.3
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.2...v1.28.3)
