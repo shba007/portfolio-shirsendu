@@ -1,5 +1,17 @@
 # portfolio-shirsendu
 
+## v1.28.0
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.27.0...v1.28.0)
+
+### 🚀 Enhancements
+
+- Enhance deployment process and implement app updater functionality ([87ef4fc](https://github.com/shba007/portfolio-shirsendu/commit/87ef4fc))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.27.0
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.26.1...v1.27.0)
