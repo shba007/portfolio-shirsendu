@@ -175,11 +175,13 @@ jobs:
         uses: tauri-apps/tauri-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
         with:
           args: ${{ matrix.args }}
-          tagName: v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version.
+          tagName: v__VERSION__
           releaseName: 'v__VERSION__'
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
 
   # deploy-desktop:
@@ -265,6 +267,15 @@ jobs:
           file: src-tauri/gen/android/app/build/outputs/apk/universal/release/app-universal-release.apk
           asset_name: shirsendu.bairagi_${{ env.VERSION }}_arm64.apk
           tag: ${{ env.VERSION }}
+
+      - name: ⚙️ Upload Artifact
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: src-tauri/gen/android/app/build/outputs/bundle/universalRelease/app-universal-release.aab
+          asset_name: shirsendu.bairagi_${{ env.VERSION }}_arm64.aab
+          tag: ${{ env.VERSION }}
+
   # deploy-mobile:
   #   needs: build-mobile
   #   runs-on: ubuntu-latest

@@ -35,6 +35,15 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "createUpdaterArtifacts": true
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEY0MUU4NEI2MDEzNzdCNkUKUldSdWV6Y0J0b1FlOUExVXp3Y00xZ3lKakdVc2xvTUhQN1REQkJOeXMzMFQzRTgwUkt3aXduWTAK",
+      "endpoints": [
+        "https://github.com/shba007/portfolio-shirsendu/releases/latest/download/latest.json"
+      ]
+    }
   }
 }

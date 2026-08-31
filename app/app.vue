@@ -96,7 +96,10 @@ async function getExistingSubscription() {
   return subscription
 }
 
+const { version } = useAppUpdater({ checkOnStartup: true, autoInstall: true })
+
 onMounted(async () => {
+  console.log('App Version', version.value)
   if (isSupported.value && permissionGranted.value) await getExistingSubscription()
 })
 
