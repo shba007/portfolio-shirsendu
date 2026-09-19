@@ -73,7 +73,7 @@
     "@vueuse/nuxt": "^14.4.0",
     "confbox": "^0.2.4",
     "date-fns": "^4.4.0",
-    "nodemailer": "^9.1.0",
+    "nodemailer": "^10.0.10",
     "nuxt": "^4.5.2",
     "nuxt-nodemailer": "^1.1.4",
     "nuxt-splide": "^1.1.2",
