@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/shba007/portfolio-shirsendu:latest
+    image: ghcr.io/shba007/portfolio-shirsendu:latest@sha256:e97087b12d348b35b156c52f3c589289ab23d4ee8923fec945d6fd354c4dbb9a
     env_file:
       - .env
     volumes:
