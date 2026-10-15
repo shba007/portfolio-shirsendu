@@ -1,5 +1,18 @@
 # portfolio-shirsendu
 
+## v1.28.5
+
+[compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.4...v1.28.5)
+
+### 💅 Refactors
+
+- Update project name and description, and bump dependencies ([e3b1d8f](https://github.com/shba007/portfolio-shirsendu/commit/e3b1d8f))
+- Update theme names in AndroidManifest and theme files ([ad0bef5](https://github.com/shba007/portfolio-shirsendu/commit/ad0bef5))
+
+### ❤️ Contributors
+
+- Shirsendu Bairagi ([@shba007](https://github.com/shba007))
+
 ## v1.28.4
 
 [compare changes](https://github.com/shba007/portfolio-shirsendu/compare/v1.28.3...v1.28.4)
