@@ -29,10 +29,10 @@
     <img src="https://img.shields.io/badge/Tauri-2.12-24C8DB?logo=tauri&logoColor=white" alt="Tauri 2">
   </a>
   <a href="https://bun.sh">
-    <img src="https://img.shields.io/badge/Bun-1.4.3-fbf0df?logo=bun&logoColor=black" alt="Bun 1.4">
+    <img src="https://img.shields.io/badge/Bun-1.4.0-black?logo=bun&logoColor=white&style=flat-square" alt="Bun 1.4" />
   </a>
   <a href="https://github.com/shba007/portfolio-shirsendu/pkgs/container/portfolio-shirsendu">
-    <img src="https://img.shields.io/badge/GHCR-portfolio--shirsendu-2496ED?logo=docker&logoColor=white" alt="Docker GHCR">
+    <img src="https://img.shields.io/badge/Docker-GHCR-2496ED?logo=docker&logoColor=white&style=flat-square" alt="Docker GHCR" />
   </a>
 </p>
 
