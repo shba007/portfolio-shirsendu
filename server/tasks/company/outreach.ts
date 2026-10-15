@@ -1,4 +1,4 @@
-import { sendEmail } from '~~/server/api/notification/email/[id]/send.post'
+import { sendEmail } from '~~/server/utils/send-email'
 
 export default defineTask({
   meta: {

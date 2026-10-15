@@ -1,4 +1,4 @@
-name: 'portfolio-shirsendu-dev'
+name: 'developer-portfolio-dev'
 services:
   app:
     build: .

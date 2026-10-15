@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "Shirsendu Bairagi",
+  "productName": "Developer's Portfolio",
   "version": "../package.json",
   "identifier": "dev.shirsendu-bairagi.portfolio",
   "build": {
@@ -15,7 +15,7 @@
         "label": "main",
         "visible": true,
         "url": "/",
-        "title": "Shirsendu Bairagi",
+        "title": "Developer's Portfolio",
         "width": 1400,
         "height": 720,
         "resizable": true,

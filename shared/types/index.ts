@@ -1,5 +1,4 @@
 import z from 'zod'
-import type { EmailTemplateData } from '~~/server/emails'
 
 export type Technologies = 'angular' | 'react' | 'nextjs' | 'vue' | 'nuxt' | 'astro' | 'tailwindcss' | 'tensorflowjs' | 'typescript' | 'python' | 'fastapi' | 'tensorflow'
 export type ProjectType = 'Web App' | 'Web App Template' | 'Cron Job' | 'Game' | 'Library' | 'API' | 'Bot' | 'ML Model'
@@ -111,6 +110,34 @@ export interface Certificate {
     id: string
     title: string
   }
+}
+
+export interface EmailMetaData {
+  fromCompanyName: string
+  fromCompanyLogo: string
+  fromCompanyLink: string
+  fromCompanyPhone: string
+  fromEmail: string
+}
+
+export interface ProspectEmail {
+  fromFeaturedProjects?: { id: string; name: string; description: string; url: string }[]
+  toCompanyName: string
+  toEmail: string
+}
+
+export interface ContactEmail {
+  toPersonName: string
+  toCompanyName: string
+  toEmail: string
+  toProjectDescription: string
+  toMeetingTime: string
+  toMeetingLink: string
+}
+
+export type EmailTemplateData = {
+  prospect: ProspectEmail
+  contact: ContactEmail
 }
 
 export interface TransactionalEmail<T extends keyof EmailTemplateData> {

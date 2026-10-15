@@ -1,4 +1,4 @@
-import { sendEmail } from './notification/email/[id]/send.post'
+import { sendEmail } from '~~/server/utils/send-email'
 
 export default defineEventHandler<
   Promise<{
@@ -60,11 +60,6 @@ export default defineEventHandler<
     }
   } catch (error: unknown) {
     console.error('API contact POST', error)
-
-    const { code: errorCode } = error as { code?: string }
-    if (errorCode === 'ESOCKET' || errorCode === 'ECONNECTION') {
-      throw createError({ statusCode: 500, statusMessage: 'Failed to establish secure SMTP connection. Please check SSL/TLS settings.' })
-    }
 
     throw createError({
       statusCode: 500,

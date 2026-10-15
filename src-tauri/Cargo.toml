@@ -1,11 +1,11 @@
 [package]
-name = "portfolio-shirsendu"
-description = "Shirsendu's devfolio showcasing his projects, experience and certification in a visually appealing manner"
+name = "developer-portfolio"
+description = "Developer's portfolio showcasing projects, experience and certification in a visually appealing manner"
 authors = ["Shirsendu Bairagi <shirsendu2001@gmail.com>"]
 license = "GPL-3.0-only"
 repository = "https://github.com/shba007/portfolio-shirsendu.git"
-edition = "2021"
-rust-version = "1.77.2"
+edition = "2024"
+rust-version = "1.98.1"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -14,17 +14,17 @@ name = "app_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
-tauri-build = { version = "2.6", features = [] }
+tauri-build = { version = "2.7", features = [] }
 
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 log = "0.4"
-tauri = { version = "2.11", features = [] }
-tauri-plugin-log = "2.9"
-tauri-plugin-opener = "2.5"
-tauri-plugin-shell = "2.3"
-tauri-plugin-process = "2.3"
+tauri = { version = "2.12", features = [] }
+tauri-plugin-log = "2.10"
+tauri-plugin-opener = "2.7"
+tauri-plugin-shell = "2.5"
+tauri-plugin-process = "2.4"
 
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
-tauri-plugin-updater = "2.11"
+tauri-plugin-updater = "2.14"

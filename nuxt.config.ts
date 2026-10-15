@@ -1,5 +1,3 @@
-import vue from '@vitejs/plugin-vue'
-
 const host = process.env.TAURI_DEV_HOST || 'localhost'
 const port = process.env.PORT ? parseInt(process.env.PORT) : 3000
 
@@ -32,9 +30,6 @@ const nativeConfig =
               base: './static',
             },
           },
-          rollupConfig: {
-            plugins: [vue()],
-          },
           prerender: {
             routes: ['/_ipx/s_512x512/images/globe.webp', '/_ipx/s_512x512/images/mobile.webp', '/_ipx/s_512x512/images/robot.webp', '/_ipx/s_512x512/images/drone.webp'],
           },
@@ -61,7 +56,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vite-pwa/nuxt',
     '@vueuse/nuxt',
-    'nuxt-nodemailer',
     'nuxt-splide',
     '@regle/nuxt',
   ],
@@ -73,22 +67,7 @@ export default defineNuxtConfig({
         base: './static',
       },
     },
-    rollupConfig: {
-      plugins: [vue()],
-    },
   },
-  /* vite: {
-    // FIXME: temporary fix for email remove when not needed
-    $server: {
-      build: {
-        rollupOptions: {
-          output: {
-            preserveModules: true,
-          },
-        },
-      },
-    },
-  }, */
   routeRules: {
     '/': { ssr: true },
     '/_ipx/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
@@ -98,7 +77,6 @@ export default defineNuxtConfig({
       headers: { 'content-type': 'application/manifest+json', 'cache-control': 'public, max-age=0, must-revalidate' },
     },
     '/api/**': { cors: true },
-    '/email': { ssr: true },
   },
   runtimeConfig: {
     meta: {
@@ -118,6 +96,8 @@ export default defineNuxtConfig({
       notionDbId: '',
       vapidKey: '',
       vapidSubject: '',
+      emailApiUrl: '',
+      emailApiKey: '',
       emailMetaData: '',
       oauthClientId: '',
       oauthClientSecret: '',
@@ -156,13 +136,16 @@ export default defineNuxtConfig({
       googleAnalytics: true,
     },
   },
+  aiReady: {
+    database: false,
+  },
   colorMode: {
     preference: 'dark',
     fallback: 'light',
     classSuffix: '',
   },
   site: {
-    name: 'Shirsendu Bairagi',
+    name: "Developer's Portfolio",
     url: process.env.NUXT_PUBLIC_SITE_URL,
   },
   sitemap: {
@@ -180,9 +163,9 @@ export default defineNuxtConfig({
     registerType: 'autoUpdate',
     includeManifestIcons: false,
     manifest: {
-      name: 'Shirsendu Bairagi',
-      short_name: 'Shirsendu Bairagi',
-      description: 'Shirsendu Bairagi is a Fullstack Developer',
+      name: "Developer's Portfolio",
+      short_name: "Developer's Portfolio",
+      description: "Developer's portfolio showcasing projects, experience and certification",
       theme_color: '#0593FA',
       background_color: '#0593FA',
       display: 'fullscreen',
@@ -348,19 +331,6 @@ export default defineNuxtConfig({
       type: 'module',
       enabled: false,
       suppressWarnings: false,
-    },
-  },
-  nodemailer: {
-    from: '',
-    host: '',
-    port: '',
-    secure: true,
-    auth: {
-      user: '',
-      pass: '',
-    },
-    tls: {
-      rejectUnauthorized: false,
     },
   },
   splide: {
